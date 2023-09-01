@@ -1,0 +1,5 @@
+Name: CommDrivers
+Type: FolderType
+Children:
+- File: ModbusDriver1/ModbusDriver1.yaml
+- File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml

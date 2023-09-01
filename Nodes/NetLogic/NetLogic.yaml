@@ -1,0 +1,15 @@
+Name: NetLogic
+Type: FolderType
+Children:
+- Name: VariableSyncronizer
+  Type: NetLogic
+  Children:
+  - Name: TagsToSync
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"2e3c8f1c17e558a9efa455b45b62d5e4","Namespace":20}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
