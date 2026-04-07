@@ -52,26 +52,18 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#f6f8e2"
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: CornerRadius
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HitTestVisible
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Blink
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -91,22 +83,18 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -121,29 +109,25 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: Switch0
       Type: Switch
       Children:
       - Name: Checked
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=f643dda9-b3be-c4ba-3d88-6de0bbb78866}"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bool0"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -197,7 +181,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -209,12 +192,11 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=f643dda9-b3be-c4ba-3d88-6de0bbb78866}@BrowseName"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bool0@BrowseName"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -239,7 +221,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -251,12 +232,11 @@ Children:
       - Name: Checked
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=506c8f73-c568-9249-8cbe-3abb010f5554}"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bool2"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -284,12 +264,11 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=62e34d84-cf7c-8356-d002-8b2d75d0d90f}@BrowseName"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bool1@BrowseName"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -314,7 +293,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -326,12 +304,11 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=506c8f73-c568-9249-8cbe-3abb010f5554}@BrowseName"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Bool2@BrowseName"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -351,7 +328,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -368,12 +344,11 @@ Children:
       - Name: Checked
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=01689073-3727-4bff-3d4f-f170f8db0232}"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Bool1"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -401,12 +376,11 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=224dec0a-9fb4-fdd6-9285-bd04ba59a58f}"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/DInt0"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -432,7 +406,6 @@ Children:
         Type: BaseVariableType
         DataType: InputTypeEnum
         ModellingRule: Optional
-        Value: 0
   - Name: pnlModbus
     Type: Panel
     Children:
@@ -469,26 +442,18 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#f4f9a2"
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: CornerRadius
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HitTestVisible
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Blink
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -508,22 +473,18 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -538,29 +499,25 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: LedCoil2
       Type: Led
       Children:
       - Name: Active
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=0908f669-f4d9-db48-a971-97facc2976b7}"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Bool2"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -575,7 +532,6 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -592,12 +548,11 @@ Children:
       - Name: Active
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=0c9c8bba-ee8c-532c-9b46-3bf7f1399e7c}"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Bool0"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -617,7 +572,6 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -655,7 +609,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -667,12 +620,11 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=0c9c8bba-ee8c-532c-9b46-3bf7f1399e7c}@BrowseName"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Bool0@BrowseName"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -697,7 +649,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -709,12 +660,11 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=0908f669-f4d9-db48-a971-97facc2976b7}@BrowseName"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Bool2@BrowseName"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -734,7 +684,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -751,12 +700,11 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=01689073-3727-4bff-3d4f-f170f8db0232}@BrowseName"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Bool1@BrowseName"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -781,7 +729,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -793,12 +740,11 @@ Children:
       - Name: Checked
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=01689073-3727-4bff-3d4f-f170f8db0232}"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags/Bool1"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -826,12 +772,11 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=20;g=8aaad568-7fad-c8b0-5a3f-e8e6ffd55b44}"
+          Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags/HoldReg1"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -857,7 +802,6 @@ Children:
         Type: BaseVariableType
         DataType: InputTypeEnum
         ModellingRule: Optional
-        Value: 0
   - Name: lbl_Title
     Type: Label
     Children:
@@ -890,7 +834,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -1088,7 +1031,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 333.0
-- Name: myPnlEmpty
+- Name: Homepage
   Id: g=ce2f1c97fd513456c617f4afcea8a732
   Supertype: Panel
   ReferenceType: HasComponent
@@ -1110,12 +1053,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"it-IT","Text":"Empty Display"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 310.0
+      Value: {"LocaleId":"it-IT","Text":"WARNING"}
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1130,14 +1068,61 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#0238f6"
+      Value: "#ff0000"
     - Name: FontFamily
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
       ModellingRule: Optional
       Value: 950
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"it-IT","Text":"This demo is not meant to be a fully-functional data gateway, this application does not handle any reconnection, tags quality or endpoint monitoring. It is only meant for a small amount of non-critical tags."}
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 64.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0

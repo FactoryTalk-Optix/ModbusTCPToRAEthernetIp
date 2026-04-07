@@ -1,41 +1,23 @@
 Name: ModbusTCPToRAEthernetIp
 Type: ProjectFolder
 Children:
-- Name: BranchingEnabled
-  Type: BaseDataVariableType
-  DataType: Boolean
-  Value: false
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: EnforcePasswordHistory
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: MinimumPasswordLength
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 8
-- Name: Locales
-  Type: BaseDataVariableType
-  DataType: String
-  ValueRank: OneDimension
-  ArrayDimensions: [0]
-  Value: ["it-IT"]
-- Name: LocaleFallbackList
-  Type: BaseDataVariableType
-  DataType: String
-  ValueRank: OneDimension
-  ArrayDimensions: [0]
-  Value: ["en-US"]
 - File: UI/UI.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
@@ -50,12 +32,42 @@ Children:
 - File: Security/Security.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
-- Name: DefaultUserFolder
-  Type: NodePointer
-  DataType: NodeId
-  Value: {"IdType":2,"Id":"3be295d2e1fad0d0876cf02dc4709ba5","Namespace":20}
+- Name: Authentication
+  Type: PropertyGroup
   Children:
-  - Name: Kind
-    Type: PropertyType
+  - Name: DefaultUserFolder
+    Type: NodePointer
     DataType: NodeId
-    Value: {"Id":61}
+    ReferenceType: HasProperty
+    Value: "/Objects/ModbusTCPToRAEthernetIp/Security/Users"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+- Name: AlarmConfiguration
+  Type: PropertyGroup
+  Children:
+  - Name: BranchingEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+- Name: Localization
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["it-IT"]
+  - Name: LocaleFallbackList
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: RuntimeOptimization
+  Type: PropertyGroup

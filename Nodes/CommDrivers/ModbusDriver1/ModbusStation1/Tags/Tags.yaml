@@ -1,12 +1,10 @@
 Name: Tags
 Id: g=2e3c8f1c17e558a9efa455b45b62d5e4
-Type: BaseObjectType
+Type: FolderType
 Children:
 - Name: Bool0
-  Id: g=0c9c8bbaee8c532c9b463bf7f1399e7c
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Type: BaseDataVariableType
@@ -22,10 +20,8 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Bool1
-  Id: g=0168907337274bff3d4ff170f8db0232
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Type: BaseDataVariableType
@@ -45,10 +41,8 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Bool2
-  Id: g=0908f669f4d9db48a97197facc2976b7
   Type: ModbusTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: MemoryArea
     Type: BaseDataVariableType
@@ -68,15 +62,12 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: HoldReg1
-  Id: g=8aaad5687fadc8b05a3fe8e6ffd55b44
   Type: ModbusTag
   DataType: Int16
-  Value: 0
   Children:
   - Name: MemoryArea
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
   - Name: NumRegister
     Type: BaseDataVariableType
     DataType: UInt16

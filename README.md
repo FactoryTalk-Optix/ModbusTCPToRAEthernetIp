@@ -1,13 +1,18 @@
 # Gateway from Modbus to Ethernet IP with Optix
 This project shows how to convert tags coming from a Modbus driver to an RA Ethernet IP. Tags are synchronized even if not used in UI.
+
+> [!WARNING]
+> This demo is not meant to be a fully-functional data gateway, this application does not handle any reconnection, tags quality or endpoint monitoring. It is only meant for a small amount of non-critical tags.
+
 ## Instructions
+
 - Open project
 - Define input tags in the `Modbus station`
 - Create Dynamic Links from `Mosbus` tags to `Ethernet IP` tags (and not viceversa)
 - Browse to `NetLogic/VariableSynchronizer` and populate the `TagsToSync` variable to the container of the tags to be synchronized
 - Launch the application
 
-### Disclaimer
+## Disclaimer
 
 Rockwell Automation maintains these repositories as a convenience to you and other users. Although Rockwell Automation reserves the right at any time and for any reason to refuse access to edit or remove content from this Repository, you acknowledge and agree to accept sole responsibility and liability for any Repository content posted, transmitted, downloaded, or used by you. Rockwell Automation has no obligation to monitor or update Repository content
 

@@ -10,7 +10,6 @@ Children:
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
-  Value: 0
 - Class: Reference
   Target: ns=11;i=29
   Direction: Forward
@@ -31,4 +30,94 @@ Children:
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types
-  Type: BaseObjectType
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
+- Name: StationStatusVariables
+  Type: PropertyGroup
+  Children:
+  - Name: ActiveDataItems
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: ActivityCounter
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: CatalogNumber
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: ControllerName
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: FailedDataItems
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MajorRev
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MinorRev
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: Mode
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: OptimizedBlocks
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: Present
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: ProductCode
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: ProductType
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: RecoverableMajorFaults
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RecoverableMinorFaults
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RunMode
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Synchronized
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: SyncState
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: UnrecoverableMajorFaults
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: UnrecoverableMinorFaults
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Vendor
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read

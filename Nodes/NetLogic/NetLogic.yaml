@@ -1,5 +1,5 @@
 Name: NetLogic
-Type: FolderType
+Type: NetLogicCategoryFolder
 Children:
 - Name: VariableSyncronizer
   Type: NetLogic
@@ -7,9 +7,8 @@ Children:
   - Name: TagsToSync
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"2e3c8f1c17e558a9efa455b45b62d5e4","Namespace":20}
+    Value: "/Objects/ModbusTCPToRAEthernetIp/CommDrivers/ModbusDriver1/ModbusStation1/Tags"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}

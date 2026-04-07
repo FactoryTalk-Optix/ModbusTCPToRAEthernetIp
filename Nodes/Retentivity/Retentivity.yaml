@@ -1,5 +1,5 @@
 Name: Retentivity
-Type: FolderType
+Type: RetentivityCategoryFolder
 Children:
 - Name: SecurityRetentivityStorage
   Type: RetentivityStorage
@@ -10,12 +10,11 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"81c9ba553693303c4dbea2057c71a2ba","Namespace":20}
+      Value: "/Objects/ModbusTCPToRAEthernetIp/Security"
       Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
         Type: PropertyType
         DataType: NodePointerNodeClass
@@ -24,7 +23,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
-    Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
     Type: BaseDataVariableType
     DataType: Boolean

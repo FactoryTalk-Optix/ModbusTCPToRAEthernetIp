@@ -32,12 +32,11 @@ Children:
 - Name: Timeout
   Type: BaseDataVariableType
   DataType: Duration
-  Value: "0:00:00:5.0000000"
+  Value: "0:00:00:05.0000000"
 - Name: OperationCode
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
-  Value: 0
 - Class: Reference
   Target: ns=11;i=29
   Direction: Forward
@@ -58,8 +57,10 @@ Children:
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types
-  Type: BaseObjectType
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
 - Name: TagOptimization
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
